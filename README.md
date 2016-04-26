@@ -1,2 +1,2 @@
-# Seta-Engine-for-Batch-games
+# Seta Engine for Batch-games
 Engines for Batch Script-based games.
