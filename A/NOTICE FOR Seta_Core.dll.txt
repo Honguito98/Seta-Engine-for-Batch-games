@@ -1,0 +1,2 @@
+Seta_Core.dll contains program code parts of BatchGraphics (BG.exe) programed by Carlos Montiers Aguilera. Copyright (C) 2010-2014 Carlos Montiers Aguilera
+The original resources can be found at <http://consolesoft.com/p/bg/index.html>
