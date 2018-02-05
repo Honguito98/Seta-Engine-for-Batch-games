@@ -1,0 +1,23 @@
+"Colour Table    ";07
+"                 ";07
+"Colour  Number   ";07
+"                 ";07
+"Low:             ";08
+"Black    0       ";07
+"Blue     1       ";01
+"Green    2       ";02
+"Aqua     3       ";03
+"Red      4       ";04
+"Magenta  5       ";05
+"Yellow   6       ";06
+"Gray     7       ";07
+"                 ";07
+"High:            ";07
+"Black    8       ";08
+"Blue     9       ";09
+"Green    a       ";0a
+"Aqua     b       ";0b
+"Red      c       ";0c
+"Magenta  d       ";0d
+"Yellow   e       ";0e
+"White    f       ";0f
