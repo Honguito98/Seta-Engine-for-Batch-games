@@ -10,9 +10,10 @@ Standard versions are listed here:
 
 Version | Features
 --------|-------------
-A | Monochrome, char-based and ultra fast engine. Keyboard support-only
-B | Coloured, char-based engine. Keyboard support-only
-C | (on development) Coloured, sprite-based engine. Keyboard support-only
+mini | Color-limited, char-based and basic engine. Keyboard support-only.
+A | Monochrome, char-based and ultra fast engine. Keyboard support-only.
+B | Coloured, char-based engine. Keyboard support-only.
+C | (on development) Coloured, sprite-based engine. Keyboard support-only.
 
 Programing
 ----
