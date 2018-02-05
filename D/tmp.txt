@@ -1,0 +1,64 @@
+Argv= Star Square
+Cl=0
+ComSpec=C:\WINDOWS\system32\cmd.exe
+Game=C:\Users\Honguito98\Documents\GitHub\Seta-Engine-for-Batch-games\D\Seta_Gpu_D.bat
+LF=
+
+Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem
+Physics=For %` in (0;1) Do If %` Equ 1 (For /F "Tokens=1-9" %1 in ("!Argv!") Do (
+Set /a^
+__W_p=%1.W + %1.X,__H_p=%1.H + %1.Y,__X_p=%1.X,__Y_p=%1.Y
+For /F "Tokens=1-2" %X in ("!%2!") Do (
+Set /a^
+__W_e=%2.W + %Y,__H_e=%2.H + %X,__X_e=%Y,__Y_e=%X,__C1=0,__C2=0
+Rem X
+If !__W_p! Gtr !__X_e! (
+If !__W_p! Lss !__W_e! (
+Set __C1=1
+) Else (
+If !__X_p! Lss !__W_e! Set __C1=1
+)
+)
+Rem Y
+If !__H_p! Gtr !__Y_e! (
+If !__H_p! Lss !__H_e! (
+Set __C2=1
+) Else (
+If !__Y_p! Lss !__H_e! Set __C2=1
+)
+)
+
+If "!__C1!!__C2!" == "11" (Call) Else (Call )
+)
+
+)) Else Set Argv=
+Square=0 45 0
+Square.F[0]=Blue
+Square.F[1]=Red
+Square.H=14
+Square.W=13
+Square[0]=0 0 1
+Square[1]=0 15 1
+Square[2]=0 30 0
+Square[3]=0 45 0
+Star.F[0]=Star
+Star.H=14
+Star.W=13
+Star.X=6
+Star.Y=0
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TMP=C:\Users\HONGUI~1\AppData\Local\Temp
+Type=2
+USERPROFILE=C:\Users\Honguito98
+__C1=0
+__C2=1
+__H_e=14
+__H_p=14
+__Sq=0 0 rsrc\Red.spr 0 15 rsrc\Red.spr 0 30 rsrc\Blue.spr 0 45 rsrc\Blue.spr 
+__W_e=58
+__W_p=19
+__X_e=45
+__X_p=6
+__Y_e=0
+__Y_p=0
